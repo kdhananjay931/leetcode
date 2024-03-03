@@ -22,7 +22,7 @@ public class Solution {
             if (slow == fast) {
                 slow= head;
             
-            while(fast!=slow){
+            while(slow!=fast){
             slow=slow.next;
             fast=fast.next;
             
